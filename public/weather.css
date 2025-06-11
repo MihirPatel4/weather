@@ -1,0 +1,70 @@
+body {
+    background-image: linear-gradient(to bottom right, skyblue, rgb(122, 58, 207));
+    height: 100vh;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+
+#current-weather-info {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#forecast-container {
+    background-color: rgb(0, 0, 0, 0.5);
+    margin: 0 auto;
+    max-width: fit-content;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+#forecast {
+    display: flex;
+    overflow: scroll;
+    width: max-content;
+}
+
+.day-container {
+    min-width: 150px;
+    width: 200px;
+}
+
+.day-info {
+    text-align: center;
+}
+
+.condition-icon {
+    display: block;
+    width: 25%;
+    margin: 0 auto;
+}
+
+#choose-city-container {
+    margin: 0 auto;
+    width: 300px;
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#choose-city label {
+    text-align: center;
+    display: block;
+    margin: 10px;
+}
+
+#choose-city input {
+    margin: 10px auto;
+    display: block;
+}
+
+#error-text {
+    display: none;
+    text-align: center;
+    color: red;
+    font-size: 12px;
+}
