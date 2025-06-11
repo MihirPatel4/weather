@@ -65,10 +65,8 @@ async function newForecast(q) {
     })
 }
 
-window.addEventListener('DOMContentLoaded', () => {
-    createForecast()
-    newForecast('Birmingham')
-})
+createForecast()
+newForecast('Birmingham')
 
 cityForm.addEventListener('submit', (event) => {
     event.preventDefault()
