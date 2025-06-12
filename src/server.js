@@ -1,9 +1,7 @@
 import express from 'express'
-import dotenv from 'dotenv'
 import path, { dirname } from 'path'
 import { fileURLToPath } from 'url'
 
-dotenv.config()
 const app = express()
 const PORT = 3000
 
